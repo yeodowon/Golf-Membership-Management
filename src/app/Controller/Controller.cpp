@@ -4,15 +4,18 @@ Controller::Controller(Members_manage_service* members_manage_service)
 {
     monitor = new Monitor();
     this->members_manage_service = members_manage_service;
+    piezo = new Piezo(5);
 }
 
 Controller::~Controller()
 {
     delete monitor;
+    delete piezo;
 }
 
 void Controller::Update_event(Device_data data)
-{
+{   piezo-> Beep(3);
+
     if(data.dev_name == "Card_reader")
     {
         uint8_t card_number[5];

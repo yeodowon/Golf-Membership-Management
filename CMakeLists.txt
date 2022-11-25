@@ -22,6 +22,7 @@ add_executable(${PROJECT_NAME}
     ./src/hw/Tcp_server/Tcp_server.cpp
     ./src/hw/Tcp_server/Com_dev.cpp
     ./src/hw/Sg90/Sg90.cpp
+    ./src/hw/Piezo/Piezo.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
@@ -41,6 +42,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
     ./src/hw/Led
     ./src/hw/Tcp_server
     ./src/hw/Sg90
+    ./src/hw/Piezo
 )
 
 target_link_libraries(${PROJECT_NAME} PUBLIC
