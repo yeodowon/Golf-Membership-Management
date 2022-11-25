@@ -36,7 +36,7 @@ void Server_thread(Tcp_server *server)
                 members_manage_service->members_manager_state = CARD_CHANGE;
                 members_manage_service->Updata_state_event("Mode_button");
             }
-            if(strcmp((const char*)recvBuff, "RESISTER_MODE\n") == 0) 
+            if(strcmp((const char*)recvBuff, "REGISTER_MODE\n") == 0) 
             {
                 members_manage_service->members_manager_state = CARD_READER;
                 members_manage_service->Updata_state_event("Mode_button");     

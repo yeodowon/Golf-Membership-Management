@@ -41,13 +41,13 @@ void Members_manage_service::Updata_state_event(std::string dev_name)
     switch(members_manager_state)
     {
         case CARD_READER:
-            if(dev_name == "Mode_button" || dev_name == "RESISTER_MODE")
+            if(dev_name == "Mode_button" || dev_name == "REGISTER_MODE")
             {
-                printf("resister\n");
+                printf("REGISTER\n");
                 members_manager_state = CARD_REGISTER;
-                views->Monitor_view("RESISTER_MODE");
-                views->Lcd_view("RESISTER_MODE");
-                views->Led_view("RESISTER_MODE");
+                views->Monitor_view("REGISTER_MODE");
+                views->Lcd_view("REGISTER_MODE");
+                views->Led_view("REGISTER_MODE");
             }
             break;
         case CARD_REGISTER:
@@ -97,11 +97,11 @@ void Members_manage_service::Check_card_num(uint8_t* card_num)
             {
                 printf("Not Registered Member!\n\n");
 
-                printf("Resister this card?(y/n) : ");
+                printf("REGISTER this card?(y/n) : ");
                 cin >> select;
                 if(select == 'y')
                 { 
-                    Updata_state_event("RESISTER_MODE");
+                    Updata_state_event("REGISTER_MODE");
                 } 
                 else 
                 {
@@ -136,7 +136,7 @@ void Members_manage_service::Check_card_num(uint8_t* card_num)
                     break;
                 }
             }
-            else Card_resister(card_num);
+            else Card_register(card_num);
             break;
 
         case CARD_DELETE:
@@ -185,13 +185,13 @@ void Members_manage_service::Check_card_num(uint8_t* card_num)
             }
             else 
             {
-                printf("Not Registered Member!\nResister this card?(y/n) : \n");
+                printf("Not Registered Member!\nREGISTER this card?(y/n) : \n");
                 cin >> select;
                 if(select == 'y')
                 {
                     system("clear");
                     members_manager_state = CARD_READER;
-                    Updata_state_event("RESISTER_MODE");
+                    Updata_state_event("REGISTER_MODE");
                 }
                 else
                 {
@@ -209,7 +209,7 @@ void Members_manage_service::Set_com_dev(Com_dev* com_dev)
     this->com_dev = com_dev;
 }
 
-void Members_manage_service::Card_resister(uint8_t* card_num)
+void Members_manage_service::Card_register(uint8_t* card_num)
 {
     Members_info temp_member;
 
@@ -232,15 +232,15 @@ void Members_manage_service::Card_resister(uint8_t* card_num)
     
     members_entity->Add_member_info(temp_member);
 
-    printf("\nMember Resistered!\n");
+    printf("\nMember REGISTERed!\n");
     members_entity->Print_member_info(card_num);
-    printf("\nPress 'y' Continue Resister... \n");
+    printf("\nPress 'y' Continue REGISTER... \n");
 
     cin >> select;
     if(select == 'y')
     {
         members_manager_state = CARD_READER;
-        Updata_state_event("RESISTER_MODE");
+        Updata_state_event("REGISTER_MODE");
     }
 }
 
