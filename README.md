@@ -33,3 +33,18 @@ https://user-images.githubusercontent.com/113006249/205273992-681727c1-1f6a-4af3
 (하드웨어 동작)
 
 
+https://user-images.githubusercontent.com/113006249/205285363-e2e13091-1912-4566-96b9-9fd48df6dde3.mp4
+
+
+4. 프로그램 종료
+
+(Monitor)
+
+
+https://user-images.githubusercontent.com/113006249/205285867-ad746093-67b4-493c-b60f-9d808bc3a2be.mp4
+
+(하드웨어 동작)
+
+
+https://user-images.githubusercontent.com/113006249/205285950-46114f33-d170-4a60-ac31-60bca2d14844.mp4
+
