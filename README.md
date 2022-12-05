@@ -4,14 +4,19 @@
 1. TCP / IP Socket 통신 클라이언트 제어
 
 
-https://user-images.githubusercontent.com/113006249/205573449-4293c3ff-9ff2-4fb2-8be0-41740f15a5e3.mp4
+https://user-images.githubusercontent.com/113006249/205574704-e7f08534-6ea2-41da-b144-cba5e6fd8739.mp4
+
+
 
 
 
 2. 회원 등록 및 DB 업데이트
 
 
-https://user-images.githubusercontent.com/113006249/205573548-51be5da7-bdeb-4e12-9e06-1c4d1f21ff30.mp4
+
+https://user-images.githubusercontent.com/113006249/205574568-4b936a6e-0e7e-4e00-84fc-de9cbc98769d.mp4
+
+
 
 
 
