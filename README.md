@@ -25,15 +25,10 @@ https://user-images.githubusercontent.com/113006249/205272834-b273adf3-df2a-4a77
 
 3. 2번째 멤버 등록 및 정보 변경, DB 업데이트
 
-(Monitor)
 
-https://user-images.githubusercontent.com/113006249/205273992-681727c1-1f6a-4af3-b59e-629a7926343f.mp4
-
-
-(하드웨어 동작)
+https://user-images.githubusercontent.com/113006249/205572615-894a1e77-eaf4-492e-8b29-0ef770922092.mp4
 
 
-https://user-images.githubusercontent.com/113006249/205285363-e2e13091-1912-4566-96b9-9fd48df6dde3.mp4
 
 
 4. 프로그램 종료
