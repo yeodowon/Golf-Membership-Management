@@ -1,3 +1,11 @@
+
+완성된 외관
+![image](https://user-images.githubusercontent.com/113006249/207233958-66105997-c090-4851-9be1-bf41ad3a1213.png)
+
+라즈베리파이 핀 할당
+
+![image](https://user-images.githubusercontent.com/113006249/207234000-cb98ce00-f591-4654-943b-3de5bcf37c6d.png)
+
 회원관리 프로그램 동작 영상
 
 
