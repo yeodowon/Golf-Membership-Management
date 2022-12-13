@@ -1,10 +1,16 @@
+UML Diagram
+
+![image](https://user-images.githubusercontent.com/113006249/207234244-5cc571a5-df8f-4226-9fe0-d1741b0d13af.png)
+
 
 완성된 외관
-![image](https://user-images.githubusercontent.com/113006249/207233958-66105997-c090-4851-9be1-bf41ad3a1213.png)
+
+![image](https://user-images.githubusercontent.com/113006249/207234122-0e2827e1-208d-4e35-a85d-57937798118a.png)
+
 
 라즈베리파이 핀 할당
 
-![image](https://user-images.githubusercontent.com/113006249/207234000-cb98ce00-f591-4654-943b-3de5bcf37c6d.png)
+![image](https://user-images.githubusercontent.com/113006249/207234171-038b7af3-49d6-4050-a853-73b9683f5e56.png)
 
 회원관리 프로그램 동작 영상
 
